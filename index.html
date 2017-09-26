@@ -1,25 +1,111 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Movie-Lister</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.3.2/css/mdb.min.css">
-    <link rel="stylesheet" href="/css/style.css">
-
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Material Design Bootstrap</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
 
+    <!--Main Navigation-->
+    <header>
 
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top orange-gradient">
+            <div class="container">
+                <i class="fa fa-video-camera fa-inverse fa-lg" aria-hidden="true"></i>
+                <a class="navbar-brand pull-left" href="/img/logo.png">Movie Lister</a>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.3.2/js/mdb.min.js"></script>
-    <script type="text/javascript" src="/js/main.js"></script>
+                </button>
+            </div>
+        </nav>
+        <!--/.Navbar-->
 
+        <!--Carousel Wrapper-->
+        <div id="video-carousel-example" class="carousel slide carousel-fade" data-ride="carousel">
+
+            <!--Slides-->
+            <div class="carousel-inner" role="listbox">
+                <!-- First slide -->
+                <div class="carousel-item active">
+                    <!--Mask color-->
+                    <div class="view hm-black-strong">
+                        <!--Video source-->
+                        <video class="video-full" autoplay loop>
+                            <source src="https://mdbootstrap.com/img/video/Lines.mp4" type="video/mp4" />
+                        </video>
+                        <div class="full-bg-img"></div>
+                    </div>
+
+                    <!--Caption-->
+                    <div class="carousel-caption">
+                        <div class="flex-center animated fadeInDown">
+                            <ul>
+                                <li>
+                                    <h1 class="h1-responsive">Search for a movie</h1>
+                                </li>
+                                <li>
+                                    <div class="input-group input-group-lg">
+                                        <i class="fa fa-film fa-2x" aria-hidden="true"></i>
+                                        <input type="text" class="form-control" placeholder="Movie Title" aria-describedby="sizing-addon1">
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--Caption-->
+                </div>
+                <!-- /.First slide -->
+            </div>
+            <!--/.Slides-->
+        </div>
+        <!--/.Carousel Wrapper-->
+
+    </header>
+    <!--Main Navigation-->
+
+    <!--Main layout-->
+    <main>
+        <div class="container-fluid">
+
+            <!--Your content goes here-->
+                
+            <!--Your content goes here-->
+
+        </div>
+    </main>
+    <!--Main layout-->
+
+    <!--Footer-->
+    <footer class="page-footer center-on-small-only unique-color-dark mt-0">
+        <!--Copyright-->
+        <div class="footer-copyright container-fluid">
+            © 2017 Copyright: Movie Lister
+        </div>
+        <!--/.Copyright-->
+    </footer>
+    <!--/.Footer-->
+
+    <!-- SCRIPTS -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <!-- Popper -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
 </body>
 
 </html>
