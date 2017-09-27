@@ -1,0 +1,22 @@
+{
+  "name": "movie-lister",
+  "version": "1.0.0",
+  "description": "A webapp that finds info on movies.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hadicodes/Movie-Lister-.git"
+  },
+  "author": "Hadi Yousufi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hadicodes/Movie-Lister-/issues"
+  },
+  "homepage": "https://github.com/hadicodes/Movie-Lister-#readme",
+  "dependencies": {
+    "live-server": "^1.2.0"
+  }
+}
